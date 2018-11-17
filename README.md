@@ -1,6 +1,6 @@
 # natas-solutions
 
-Repo of random scripts I've written whilst doing Over The Wire's Natas challenges
+Repo of random scripts I've written whilst doing Over The Wire's Natas challenges. These aren't pretty, or very efficient, but they get the job done.
 
 * brute_15.py is a python script written for level 15 which brute forces the password for user 'natas16' via an SQL injection into their username existence checker. It uses the responses from injecting a `AND password LIKE BINARY '[attempt]%'` to continually build up the 32-digit password.
 
